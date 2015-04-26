@@ -11,9 +11,9 @@
 * STANDING
 * LAYING
 
-Following observations is the mean of the observations found in the original dataset.
+In following observations contains the mean of the observations found in the original dataset.
 
-More about the observations:
+More about these observations:
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. 
 These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
@@ -29,36 +29,36 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 and 
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
+* mean(): Mean value
+* std(): Standard deviation
 
 and with the combinations above two sets, we get following observations... 
-"tBodyAcc-mean()-X"
-"tBodyAcc-mean()-Y" 
-"tBodyAcc-mean()-Z" 
-"tBodyAcc-std()-X" 
+* "tBodyAcc-mean()-X"
+* "tBodyAcc-mean()-Y" 
+* "tBodyAcc-mean()-Z" 
+* "tBodyAcc-std()-X" 
 "tBodyAcc-std()-Y" 
 "tBodyAcc-std()-Z"
 "tGravityAcc-mean()-X" 
